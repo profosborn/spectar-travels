@@ -1,0 +1,137 @@
+.visa-hero {
+    background-image: url('../assets/images/visa-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50vw;
+}
+
+.visa-req {
+    margin: 6rem 15rem;
+}
+
+.visa-req pre{
+    display: flex;
+    align-items: center;
+    font-family: poppins;
+}
+
+.visa-icon {
+    color: rgb(5, 148, 236);
+}
+
+
+.visa-req-portal {
+    display: flex;
+    align-items: center;
+    margin: 0 15rem;
+}
+
+.visa-img img{
+    width: 80%;
+    margin-right: 2rem;
+}
+
+.visa-portal-text {
+    width: 40%;
+}
+
+.visa-btn button{
+    background: #2B70EF;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-family: poppins;
+}
+
+.visa-pricing {
+    background: #E9F1FF;
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.visa-table-cont {
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+    background: white;
+    border-radius: 1.5rem;
+    width: 40rem;
+}
+
+.visa-table {
+    text-align: left;
+    width: 100%;
+}
+
+.col-1 {
+    width: 50%;
+    font-weight: 500;
+}
+
+.col-2 {
+    width: 35%;
+    padding: 0 0 0 5rem;
+}
+
+.row{
+    position: relative;
+    height: 3rem;
+    display: flex;
+    border-bottom: 1px gray solid;
+    padding: 0 1rem;
+}
+
+.last-row {
+    border: none;
+}
+.th-row {
+    padding: 0 1rem;
+    background: #69E2A9;
+    border-radius: 2rem;
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+    /* height: 1rem; */
+}
+
+.th-row .col-2 {
+    padding: 0 0 0 4rem;
+}
+
+.visa-modal-cont {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background: rgba(0,0,0,0.2);
+    width: 100vw;
+    height: 100vw;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.visa-modal-cont p{
+    color: #064ccf;
+}
+
+.visa-modal {
+    height: 50rem!important;
+}
+
+.visa-modal button {
+    background: #2B70EF;
+    color: white;
+    width: 10rem;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 2rem;
+}
+
+.visa-modal button:hover {
+    background: #4a86f6;
+}

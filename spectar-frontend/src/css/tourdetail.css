@@ -1,0 +1,109 @@
+.tourdetail-cont {
+    display: flex;
+    justify-content: center;
+    margin: 0 10rem;
+}
+
+.td-div-one {
+    width: 30rem;
+    margin: 0 4rem;
+}
+
+.td-title {
+    margin-top: 0;
+}
+
+.tourdet-pricing {
+    background: #E9F1FF;
+    padding: 0 2rem 2rem;
+    height: fit-content;
+    border-radius: 2rem;
+}
+
+.tourdet-pricing button, .bk-modal-cont button {
+    background: #2B70EF;
+    color: white;
+    width: 10rem;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 2rem;
+}
+
+.tourdet-pricing button:hover {
+    background: lightskyblue;
+}
+
+.tourdet-pricing h1 {
+    height: 1rem;
+}
+
+.tourdet-pricing p {
+    margin: 1.5rem 0 2rem 0;
+    color: gray;
+}
+
+.tourdet-inc {
+    display: flex;
+    align-items: center;
+}
+
+.tourdet-inc p {
+    margin-left: 0.5rem;
+}
+
+.tourdet-inc-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tourdet-inc:nth-child(2), .tourdet-inc:nth-child(4) {
+    margin-left: 2rem;
+}
+
+.bk-modal-cont {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* transform: translateY(0); */
+    top: 0;
+    padding: 0;
+    background: rgba(0,0,0,0.2);
+    width: 100vw;
+    height: 100vw;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+}
+
+.bk-modal {
+    position: relative;
+    border: 1px gray solid;
+    border-radius: 2rem;
+    padding: 4rem;
+    width: 40rem;
+    background: white;
+    height: 40rem;
+}
+
+.none {
+    display: none;
+}
+
+.bk-modal-cont p {
+    color: white;
+}
+
+.bk-input-box {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.bk-input-box input {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px gray solid;
+}
+
+
+

@@ -1,0 +1,28 @@
+{
+    "tours": [
+        {
+          "src": "tcImgOne",
+          "tourTitle": "Dubai Summer Tour",
+          "country": "Dubai",
+          "continent": "Asia",
+          "duration": "5 days trip",
+          "price": "$1,980"
+        },
+        {
+          "src": "tcImgTwo",
+          "tourTitle": "Kenya Safari Tour",
+          "country": "Kenya",
+          "continent": "Africa",
+          "duration": "6 days",
+          "price": "$1,980"
+        },
+        {
+          "src": "tcImgThree",
+          "tourTitle": "Singapore Tour",
+          "country": "Singapore",
+          "continent": "Asia",
+          "duration": "6 days",
+          "price": "$1,980"
+        }
+      ]
+}

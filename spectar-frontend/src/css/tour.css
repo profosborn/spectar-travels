@@ -1,0 +1,324 @@
+
+@media screen and (min-width: 1024px) {
+    .tour-cards {
+        padding: 4rem 0;
+        margin: 2rem 1rem;
+        background: #E9F1FF;
+        border-radius: 4rem;
+    }
+    
+    .tc-img img{
+        width: 17rem;
+    }
+    
+    .tour-section {
+       margin: 3rem 1rem;
+    }
+    
+    
+    .tour-card-cont {
+        display: flex;
+        margin: 0 1rem;
+    }
+    
+    
+    
+    .tc-country pre {
+        display: flex;
+        align-items: center;
+        margin-right: 1rem;
+    }
+
+    .tc-country pre, .tc-duration pre {
+        font-family: poppins;
+    }
+    
+    .tc-duration {
+        display: flex;
+        align-items: center;
+    }
+    
+    .tc-info {
+        display: flex;
+        color: rgb(177, 176, 176);
+    }
+    
+    .tc-book {
+        display: flex;
+    }
+    
+    .tc-footer {
+        margin: 2rem 0;
+    }
+    
+    .tc-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        height: 0.5rem;
+    }
+    
+    .tc-book, .tc-btn {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    .tc-book {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .tc-book p {
+        font-size: larger;
+    }
+    
+    .tc-btn {
+        background: white;
+        border: none!important;
+        padding: 0.5rem 2rem;
+        border-radius: 2rem;
+    }
+    
+    .tc-head {
+        margin: 0 3rem;
+    }
+    
+    
+    .tc-head-one {
+        color: rgb(48, 205, 171);
+        height: 0.3rem;
+    }
+    
+    .tc-head-two {
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 0;
+    }
+    
+    
+    .tc-tabs {
+        display: flex;
+    }
+    
+    
+    .tc-tab {
+        margin: 0 2rem;
+        border: 1px gray solid;
+        padding: 0.2rem 1rem;
+        border-radius: 2rem;
+        /* font-size: 1.5rem; */
+    }
+    
+    .tc-tab-active {
+        margin: 0 2rem;
+        background: #0859cb;
+        color: white;
+        padding: 0.2rem 1rem;
+        border-radius: 2rem;
+    }
+    
+    
+    .tc-line-two {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2rem 3rem 1rem 3rem;
+    }
+    
+    
+    .tour-vm-btn button {
+        display: flex;
+        align-items: center;
+        background: #E9F1FF;
+        padding: 0.7rem 1rem;
+        border-radius: 2rem;
+        border: 2px rgb(230, 226, 226) solid;
+        font-weight: bold;
+        font-size: medium;
+    }
+    
+    .tour-vm-btn button:hover {
+        background: #2B70EF;
+        color: azure;
+        border: 2px azure solid;
+    }
+    
+    .tour-card {
+        margin: 0 1rem;
+    }    
+}
+
+@media screen and (min-width:1440px) {
+    .tour-cards {
+        padding: 4rem 0;
+        margin: 2rem 3rem;
+        background: #E9F1FF;
+        border-radius: 4rem;
+    }
+    
+    .tc-img img{
+        width: 23rem;
+    }
+    
+    .tour-section {
+       margin: 3rem 1rem;
+    }
+    
+    
+    .tour-card-cont {
+        display: flex;
+        margin: 0 1rem;
+    }
+    
+    
+    .tc-info {
+        display: flex;
+        color: rgb(177, 176, 176);
+    }
+    
+    .tc-book {
+        display: flex;
+    }
+    
+    .tc-footer {
+        margin: 2rem 0;
+    }
+    
+    .tc-title {
+        font-size: 2rem;
+        font-weight: 600;
+        height: 0.5rem;
+    }
+
+    .tc-country, .tc-duration{
+        font-size: 1rem;
+    }
+    
+    .tc-book, .tc-btn {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    
+    .tc-book {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .tc-btn {
+        background: white;
+        padding: 1rem 2rem;
+        border-radius: 3rem;
+    }
+
+    .tc-date {
+        margin: 2rem 0;
+    }
+    
+    .tc-head {
+        margin: 0 3rem;
+    }
+    
+    
+    .tc-head-one {
+        color: rgb(48, 205, 171);
+        height: 0.3rem;
+    }
+    
+    .tc-head-two {
+        font-size: 3rem;
+        font-weight: bold;
+        margin: 0;
+    }
+    
+    
+    .tc-tabs {
+        display: flex;
+    }
+    
+    .tc-tab {
+        margin: 0 2rem;
+        border: 1px gray solid;
+        padding: 0.2rem 1rem;
+        border-radius: 2rem;
+        /* font-size: 1.5rem; */
+    }
+    
+    .tc-tab-active {
+        margin: 0 2rem;
+        background: #0859cb;
+        color: white;
+        padding: 0.2rem 1rem;
+        border-radius: 2rem;
+    }
+    
+    
+    .tc-line-two {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 2rem 6rem 1rem 1rem;
+    }
+    
+    
+    .tour-vm-btn button {
+        display: flex;
+        align-items: center;
+        background: #E9F1FF;
+        padding: 0.7rem 1rem;
+        border-radius: 2rem;
+        border: 2px rgb(189, 188, 188) solid;
+        font-weight: 500;
+        font-size: 1rem;
+        color: rgb(52, 51, 51);
+    }
+    
+    .tour-vm-btn button:hover {
+        background: #0967ea;
+        color: azure;
+        border: 2px azure solid;
+    }
+    
+    .tour-card {
+        margin: 0 1rem;
+    }    
+}
+
+
+
+
+
+
+/* tour page styles */
+
+.tour-hero {
+    background-image: url('../assets/images/tour-bg.png');
+    background-size:  100%;
+    background-repeat: no-repeat;
+    height: 50vw;
+}
+
+.tours-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.tp-btn {
+    border: 2px gray solid;
+}
+
+.tp-btn:hover {
+    background: rgb(35, 109, 247);
+    border: none;
+    color: white;
+}
+
+
+
+
+

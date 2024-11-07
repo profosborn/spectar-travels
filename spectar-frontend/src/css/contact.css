@@ -1,0 +1,94 @@
+.contact {
+    background-image: url('../assets/images/contactbg.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50vw;
+}
+
+.contact-sect-one {
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-loc pre {
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.contact-loc pre>h3 {
+    margin: 0;
+}
+
+.contact-loc {
+    margin: 0 0 4rem 0;
+}
+
+.contact-form-cont {
+    margin: 0 4rem;
+    width: 40vw;
+    border: 1px rgb(184, 182, 182) solid;
+    border-radius: 3rem;
+    padding: 4rem 0 4rem 6rem;
+}
+
+.contact-form-cont h1 {
+    margin: 0 ;
+    font-size: 2.5rem;
+}
+
+.contact-form-div {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.contact-form-div input {
+    padding: 0 0 0 2rem;
+    font-family: poppins;
+    font-weight: bold;
+    height: 4rem;
+    border-radius: 1.7rem;
+    border: 1px rgb(143, 142, 142) solid;
+    width: 80%;
+}
+
+.contact-form-div label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contact-form-cont button {
+    background: blue;
+    border: none;
+    padding: 1rem 2.5rem;
+    color: white;
+    font-family: poppins;
+    border-radius: 3rem;
+}
+
+.contact-form-cont button:hover {
+    background: rgb(43, 145, 247);
+}
+
+.message textarea{
+    font-family: poppins;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    height: 10rem;
+    border-radius: 2rem;
+    width: 75%;
+}
+
+.contact-form-div input::placeholder, .message textarea::placeholder{
+    color: rgb(186, 183, 183);
+}
+
+.contact-info-div {
+    padding: 5rem  ;
+}
+
+

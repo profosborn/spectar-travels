@@ -1,0 +1,91 @@
+@media screen and (min-width: 1024px) {
+    .about-hero {
+        background-image: url('../assets/images/about-bg.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 50vw;
+    }
+
+    .ab-section-one {
+        text-align: center;
+        padding: 0 4rem;
+    }
+
+    .ab-p-one {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .ab-img {
+        margin: 4rem;
+    }
+
+    .ab-img img {
+        width: 100%;
+    }
+
+    .ab-sect-two {
+        display: flex;
+        margin: 0 4rem;
+    }
+
+    .ab-mission {
+        background: #E9F1FF;
+        margin: 0 2rem;
+        padding: 4rem;
+        border-radius: 2rem;
+        width: 50%;
+    }
+
+    .ab-mission h1,
+    .ab-vision h1 {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    .ab-vision {
+        margin: 0 2rem;
+        padding: 4rem;
+        border: 1px black solid;
+        border-radius: 2rem;
+        width: 50%;
+    }
+
+    .ab-test {
+        margin-top: 5rem;
+    }
+
+    .team-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .team-img img {
+        width: 18rem;
+        margin: 0 1rem;
+    }
+
+    .team-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 4rem;
+    }
+
+    .team-heading {
+        text-align: center;
+    }
+
+    .tm-heading-one {
+        color: rgb(102, 235, 210);
+        margin-bottom: 0;
+    }
+
+    .tm-heading-two {
+        font-size: 3rem;
+        margin-top: 0;
+        font-weight: bold;
+    }
+}

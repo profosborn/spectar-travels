@@ -1,0 +1,110 @@
+@media screen and (min-width:1024px) {
+   .trending-loc-cont {
+    margin-top: 4rem;
+   }
+   
+    .tl-div-two {
+        margin: 2rem 0 0 0;
+    }
+
+    .tl-div-one {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 4rem;
+    }
+
+
+
+    .location {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .loc-name {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        top: 80rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 15rem;
+
+    }
+
+    .loc-name p {
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+    }
+
+    .loc-arrow {
+        display: flex;
+        background: rgb(79, 235, 79);
+        padding: 0.6rem;
+        border-radius: 50%;
+    }
+
+    .loc-img img {
+        width: 18rem;
+    }
+
+
+    .location-cont {
+        margin: 1rem;
+    }
+
+
+    .tl-heading-one {
+        color: rgb(79, 235, 79);
+        font-size: 1rem;
+        height: 0;
+    }
+
+    .tl-heading-two {
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-weight: bold;
+        margin-top: 1.4rem;
+    }
+
+    .tl-btn button {
+        display: flex;
+        align-items: center;
+        background: white;
+        padding: 1rem;
+        border-radius: 2rem;
+        border: 2px rgb(186, 184, 184) solid;
+        font-weight: bold;
+    }
+
+    .tl-btn button:hover {
+        background: #65a2f7;
+        color: azure;
+        border: 2px azure solid;
+    }
+}
+
+
+@media screen and (min-width:1440px) {
+    .loc-name {
+        top: 104rem;
+        margin: 0 2rem;
+    }
+
+    .location-cont {
+        margin: 2rem;
+    }
+
+    .loc-img img {
+        width: 25rem;
+
+    }
+
+    .loc-name p {
+        font-size: 2.5rem;
+        margin-right: 10rem;
+    }
+}
