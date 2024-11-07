@@ -20,5 +20,6 @@ Install dependencies:
   - yarn install
 
 # Running the Project
+To start the development server, run:
   - yarn dev
 
