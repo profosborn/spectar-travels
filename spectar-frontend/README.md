@@ -11,10 +11,10 @@ Currently, two official plugins are available:
 # SPECTAR FRONTEND
 # Setup
 Clone the repository:
-  - git clone https://github.com/yourusername/your-repo-name.git
+  - git clone https://github.com/profosborn/spectar-travels.git
 
 Navigate into the project directory:
-  - cd your-repo-name
+  - cd spectar-travels/spectar-frontend
 
 Install dependencies:
   - yarn install
